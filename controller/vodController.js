@@ -15,7 +15,7 @@ function initVodClient(accessKeyId, accessKeySecret, ) {
 
 exports.getvod = async (req, res) => {
 
-  // 请求示例
+  // 请求示例 阿里云key
   var client = initVodClient('LTAI5tQgEZYPQyv6oYsKDDkx', 'k2oqBchahCeqVzmH8OFzXZ1fy4rc3b');
 
   let vodback = await client.request("CreateUploadVideo", {
